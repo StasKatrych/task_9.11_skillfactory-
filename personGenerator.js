@@ -139,7 +139,7 @@ const personGenerator = {
         return randomDayOfBirth + ' ' + randomMonthOfBirth + ' ' + randomYearOfBith;
 
     },
-
+    // генерая отчества
     randomFatherName: function() {
         
         let generatedRandomFatherName = this.randomValue(this.firstNameMaleJson);
